@@ -1,5 +1,6 @@
 import React from 'react';
 import Course from './components/Courses';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 // import Lifecycle from './components/Lifecycle';
 
 class App extends React.Component {
@@ -33,6 +34,10 @@ class App extends React.Component {
 		return (
 			<div className="row">
 				{elmCourse}
+				<MessengerCustomerChat
+					pageId="102870917991334"
+					appId="220901722428950"
+  				/>
 				{/* <Lifecycle /> */}
 			</div>
 		);
